@@ -73,7 +73,7 @@ header .rightHeader .hamBox i:first-child {
 }
 
 form {
-    width: 30%;
+    width: 20%;
     margin: auto;
     border-radius: 50px;
     border: 1px solid grey;
@@ -91,8 +91,12 @@ form#form input {
     padding: 10px;
     font-size: 17px;
     float: left;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    /* to get rid of the box of the input box */
+    border: none;
+    background-color: transparent;
+    resize: none;
     outline: none;
 }
 
@@ -341,6 +345,11 @@ footer .footBox {
     line-height: 2.5;
 }
 
+footer .footBox ul li:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
 footer .footBox h3 {
     font-weight: 500;
 }
@@ -373,6 +382,11 @@ footer .bottomBox .list ul li {
     float: left;
 }
 
+footer .bottomBox .list ul li a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
 footer .bottomBox .list ul li span {
     margin-right: 10px;
 }
@@ -380,6 +394,10 @@ footer .bottomBox .list ul li span {
 footer .bottomBox .languageCurrency {
     float: left;
     margin-left: 150px;
+}
+
+footer .bottomBox .languageCurrency ul li a:hover {
+    color: #555;    
 }
 
 footer .bottomBox .languageCurrency ul li {
@@ -404,4 +422,8 @@ footer .bottomBox .site {
 footer .bottomBox .site .sns ul li {
     float: left;
     margin-left: 20px;
+}
+
+footer .bottomBox .site ul li a:hover {
+    color: #555;    
 }
