@@ -263,10 +263,9 @@ form#form button {
 .lookAround .container .box ul li {
     width: 48%;
     float: left;
-    border: 1px solid #000;
     border-radius: 10px;
     overflow: hidden;
-    background: grey;
+    background: rgb(59, 59, 59);
 }
 
 
@@ -319,7 +318,7 @@ form#form button {
     margin: 15px 0px;
 }
 
-.lookAround .container .box .rightBox span {
+.lookAround .container .box .rightBox a {
     text-decoration: underline;
 }
 
