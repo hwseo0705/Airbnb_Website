@@ -147,6 +147,7 @@ form#form button {
 .login .text h3 {
     font-size: 30px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .login .text p {
@@ -171,6 +172,7 @@ form#form button {
 .startGuide .headGuide h2 {
     font-size: 25px;
     float: left;
+    font-weight: bold;
 }
 
 .startGuide .headGuide a {
@@ -240,12 +242,11 @@ form#form button {
     padding-bottom: 20px;
 }
 
-
-
 .lookAround .container h2 {
     font-size: 35px;
     color: #fff;
     padding: 30px 0;
+    font-weight: bold;
 }
 
 
