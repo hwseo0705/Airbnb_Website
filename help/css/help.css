@@ -373,6 +373,10 @@ footer .bottomBox .list ul li {
     float: left;
 }
 
+footer .bottomBox .list ul li span {
+    margin-right: 10px;
+}
+
 footer .bottomBox .languageCurrency {
     float: left;
     margin-left: 150px;
