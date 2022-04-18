@@ -1,0 +1,397 @@
+/* google web font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+header .fa-building {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+
+header .leftHeader {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+header .rightHeader {
+    float: right;
+}
+
+header .rightHeader .fa-globe {
+    margin-right: 10px;
+}
+
+header .rightHeader .hamBox {
+    float: right;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+header .rightHeader .hamBox i:first-child {
+    margin-right: 5px;
+}
+
+.help_what {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    border-radius: 50px;
+    border: 1px solid grey;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form#form:hover {
+    background: rgb(227, 223, 223);
+}
+
+/* Style the search field */
+form#form input {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    margin: auto;
+    outline: none;
+}
+
+/* Style the submit button */
+form#form button {
+    border-radius: 50%;
+    float: right;
+    width: 10%;
+    padding: 10px;
+    background: #E31C5F;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.selectList {
+    margin-top: 50px;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.selectList li {
+    float: left;
+    margin-right: 50px;
+}
+
+.selectList li a {
+    padding: 5px;
+}
+
+.selectList li a:hover {
+    background: rgba(194, 194, 194, 0.3);
+    border-radius: 5%;
+}
+
+.login {
+    margin: 50px 0;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.login .text {
+    float: left;
+}
+
+.login .text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.login .text p {
+    font-size: 16px;
+}
+
+.login .box {
+    border-radius: 10px;
+    float: right;
+    padding: 10px 70px;
+    background: #E31C5F;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.startGuide .headGuide {
+    margin-bottom: 15px;
+}
+
+.startGuide .headGuide h2 {
+    font-size: 25px;
+    float: left;
+}
+
+.startGuide .headGuide a {
+    float: right;
+}
+
+.startGuide ul {
+    margin-bottom: 60px;
+}
+
+.startGuide ul li {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+}
+
+.startGuide ul li:nth-child(4) {
+    margin-right: 0;
+    float: right;
+}
+
+.startGuide ul li .img-box {
+    overflow: hidden;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.startGuide ul li .text {
+    font-weight: bold;
+}
+
+.popular .headPopular h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.popular ul li {
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+    height: 150px;
+}
+
+.popular ul li a .text h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.popular ul li a .text p {
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+
+.popular ul li:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+}
+
+.lookAround {
+    background: #000;
+    padding-bottom: 20px;
+}
+
+
+
+.lookAround .container h2 {
+    font-size: 24px;
+    color: #fff;
+    padding: 30px 0;
+}
+
+
+.lookAround .container .box {
+    color: #fff;
+}
+
+.lookAround .container .box ul {
+    float: left;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.lookAround .container .box ul li {
+    width: 48%;
+    float: left;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background: grey;
+}
+
+
+.lookAround .container .box ul li .text {
+    padding: 10px;
+}
+
+.lookAround .container .box ul li .text h3 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.lookAround .container .box ul li .text p {
+    margin-bottom: 15px;
+}
+
+.lookAround .container .box ul li:first-child {
+    margin-right: 2%;
+}
+
+.lookAround .container .box ul li a .img-box {
+    overflow: hidden;
+    height: 300px;
+}
+
+
+.lookAround .container .box .rightBox {
+    float: right;
+    width: 30%;
+}
+
+.lookAround .container .box .rightBox h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.lookAround .container .box .rightBox p {
+    font-size: 15px;
+}
+
+.lookAround .container .box .rightBox .qBox {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 15px 0px;
+}
+
+footer {
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer .topBox {
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+}
+
+footer .footBox {
+    width: 24%;
+    float: left;
+    margin-right: 1.1%;
+    line-height: 2.5;
+}
+
+footer .footBox h3 {
+    font-weight: 500;
+}
+
+footer .footBox ul li {
+    color: #333;
+}
+
+footer .footBox:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+footer .bottomBox {
+    padding: 20px 0;
+}
+
+footer .bottomBox h3 {
+    float: left;
+}
+
+footer .bottomBox .list {
+    float: left;
+    width: 60%;
+}
+
+footer .bottomBox .list ul li {
+    width: max-content;
+    margin-left: 20px;
+    float: left;
+}
+
+footer .bottomBox .languageCurrency {
+    float: left;
+    margin-left: 150px;
+}
+
+footer .bottomBox .languageCurrency ul li {
+    float: left;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+footer .bottomBox .languageCurrency ul li .fa-won-sign {
+    margin-right: 7px;
+}
+
+footer .bottomBox .languageCurrency ul li .fa-globe {
+    margin-right: 7px;
+}
+
+footer .bottomBox .site {
+    float: right;
+    width: 13%;
+}
+
+footer .bottomBox .site .sns ul li {
+    float: left;
+    margin-left: 20px;
+}
