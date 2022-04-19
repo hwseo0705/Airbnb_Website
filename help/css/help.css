@@ -36,10 +36,10 @@ header {
     position: relative;
 }
 
-header .fa-building {
+header .fa-airbnb {
     position: absolute;
     left: 10px;
-    top: 50%;
+    top: 35%;
 }
 
 header .leftHeader {
