@@ -26,6 +26,8 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* header style */
+
 header {
     width: 70%;
     margin: 10px auto;
@@ -72,6 +74,8 @@ header .rightHeader .hamBox i:first-child {
     margin-bottom: 25px;
 }
 
+/* search box style */
+
 form {
     width: 20%;
     margin: auto;
@@ -112,10 +116,14 @@ form#form button {
     cursor: pointer;
 }
 
+/* gen */
+
 .container {
     width: 60%;
     margin: auto;
 }
+
+/* selecting from list style */
 
 .selectList {
     margin-top: 50px;
@@ -136,6 +144,8 @@ form#form button {
     background: rgba(194, 194, 194, 0.3);
     border-radius: 5%;
 }
+
+/* login box style */
 
 .login {
     margin: 50px 0;
@@ -168,6 +178,8 @@ form#form button {
     margin-right: 50px;
     font-size: 20px;
 }
+
+/* startGuide style */
 
 .startGuide .headGuide {
     margin-bottom: 15px;
@@ -214,6 +226,8 @@ form#form button {
     font-weight: bold;
 }
 
+/* popular style */
+
 .popular .headPopular h2 {
     font-size: 25px;
     margin-bottom: 20px;
@@ -245,6 +259,8 @@ form#form button {
     float: right;
     margin-right: 0;
 }
+
+/* lookAround style */
 
 .lookAround {
     background: #000;
@@ -335,6 +351,8 @@ form#form button {
 .lookAround .container .box .rightBox a {
     text-decoration: underline;
 }
+
+/* footer style */
 
 footer {
     margin: auto;
